@@ -1,0 +1,24 @@
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  color: red;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: #534b4b;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#my-title {
+  color: green;
+  font-size: 52px;
+}
