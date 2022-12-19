@@ -1,0 +1,17 @@
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  color: red;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: #534b4b;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(233, 215, 207);
+  margin: 50px;
+}

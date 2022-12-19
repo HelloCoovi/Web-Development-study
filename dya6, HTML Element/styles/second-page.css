@@ -1,0 +1,27 @@
+h1 {
+  font-size: 52px;
+  color: rgb(71, 62, 62);
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  color: blue;
+}
+
+li {
+  background-color: rgb(223, 136, 124);
+  margin: 12px;
+  border-radius: 6px;
+}
+
+a {
+  background-color: rgb(167, 1, 78);
+  color: white;
+  border-radius: 4px;
+  font-size: 24px;
+}
+
+a:hover {
+  background-color: rgb(180, 12, 90);
+  text-decoration: none;
+}
