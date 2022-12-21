@@ -6,12 +6,21 @@ h1 {
 
 p {
   font-family: sans-serif;
-  text-align: center;
-  color: #534b4b;
+  margin: 4px 8px 4px 8px;
+}
+
+a {
+  font-family: "Fira Sans", "sans-serif";
+  text-decoration: none;
+  color: rgb(167, 1, 78);
 }
 
 body {
   text-align: center;
   background-color: rgb(233, 215, 207);
-  margin: 50px;
+  margin: 10px;
+}
+
+li {
+  list-style-type: none;
 }

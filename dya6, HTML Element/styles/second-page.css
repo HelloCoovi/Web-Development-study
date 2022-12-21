@@ -1,24 +1,61 @@
+header {
+  margin-bottom: 50px;
+}
+
 h1 {
   font-size: 52px;
   color: rgb(71, 62, 62);
+  margin: 12px 0px;
+}
+
+h2 {
+  color: rgb(78, 13, 5);
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* #description {
+  margin-bottom: 36px;
+} */
+
+header > p {
+  margin-bottom: 36px;
 }
 
 p {
+  margin: 2px;
   font-family: "Fira Sans", sans-serif;
-  color: blue;
+}
+
+/* main p {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+} */
+
+.daily-goal {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+}
+
+ol {
+  margin: 36px auto 0 auto;
+  padding: 0px;
 }
 
 li {
+  padding: 5px;
   background-color: rgb(223, 136, 124);
   margin: 12px;
   border-radius: 6px;
 }
 
 a {
+  padding: 12px 48px;
   background-color: rgb(167, 1, 78);
   color: white;
+  border: 1px solid rgb(167, 1, 78);
   border-radius: 4px;
-  font-size: 24px;
+  font-size: 18px;
+  margin: 30px 30px;
 }
 
 a:hover {
