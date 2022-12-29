@@ -1,0 +1,88 @@
+#main-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: rgb(87, 50, 191);
+}
+
+#main-image {
+  width: 300px;
+  margin: 30px;
+}
+
+#download-button {
+  background-color: rgb(249, 201, 39);
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  padding: 10px;
+  display: inline-block;
+}
+
+#download-button:hover,
+#download-button:active {
+  background-color: rgb(255, 183, 0);
+}
+
+#page-info {
+  font-size: 15px;
+  color: darkgrey;
+  margin-top: 0px;
+}
+
+.text-link {
+  color: rgb(119, 74, 216);
+  background-color: rgb(255, 238, 181);
+  border-radius: 3px;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.text-link:hover,
+.text-link:active {
+  background-color: rgb(249, 201, 50);
+}
+
+.paragraph-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: 15px 0px 15px 0px;
+}
+
+.paragraph {
+  padding-left: 0px;
+}
+
+.highlight-paragraph-detail {
+  border-color: rgb(242, 211, 85);
+  padding-left: 8px;
+  color: rgb(255, 255, 202);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border-left: 4px solid transparent;
+  padding-left: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main {
+  color: white;
+  padding: 35px;
+  width: 700px;
+  margin: 20px auto;
+  background-color: rgb(119, 74, 216);
+  border-radius: 6px;
+  text-align: left;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(243, 233, 255);
+}

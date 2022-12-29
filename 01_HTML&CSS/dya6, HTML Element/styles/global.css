@@ -1,7 +1,7 @@
 h1 {
-  font-family: "Fira Sans", sans-serif;
-  text-align: center;
-  color: red;
+  font-size: 52px;
+  color: rgb(71, 62, 62);
+  margin: 0px;
 }
 
 p {

@@ -1,0 +1,102 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS style -->
+    <link rel="stylesheet" href="style/style.css" />
+    <title>HTML & CSS Basics Summary</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="main-title">HTML & CSS Basics Summary</h1>
+      <img id="main-image" src="images/html-css.png" alt="html and css logo" />
+    </header>
+
+    <main>
+      <h3 class="paragraph-title">HTML Summary</h3>
+      <p class="paragraph">
+        HTML (HyperText Markup Language) is used to define our page content,
+        structure and meaning. You <strong>don't</strong> use it for styling
+        purposes. Use CSS for that instead!
+      </p>
+      <ul>
+        <li class="highlight-paragraph-detail">
+          HTML uses "elements" to describe (annotate) content
+        </li>
+        <li>
+          HTML elements typically have an opening tag, content and then a
+          closing tag
+        </li>
+        <li class="highlight-paragraph-detail">
+          You can also have void (empty) elements like images
+        </li>
+        <li class="highlight-paragraph-detail">
+          You can also configure elements with attributes
+        </li>
+        <li>
+          There's a long list of available elements but you'll gain experience
+          over time, no worries.
+        </li>
+      </ul>
+      <p class="paragraph">
+        Learn more about all available HTML elements on
+        <a
+          class="text-link"
+          href="https://developer.mozilla.org/ko/docs/Web/HTML/Element"
+          target="_blank"
+          >the MDN HTML element reference</a
+        >.
+      </p>
+
+      <h3 class="paragraph-title">CSS Summary</h3>
+      <p class="paragraph">
+        CSS (Cascading Style Sheets) is used for styling your page content.
+      </p>
+      <ul>
+        <li>Styles are assigned via property-value pairs</li>
+        <li>You can assign styles via the "style" attribute</li>
+        <li class="highlight-paragraph-detail">
+          To avoid code duplication, you typically use global styles (e.g. via
+          the "style" element) instead
+        </li>
+        <li>
+          Alternatively, you can work with external stylesheet files which you
+          "link" to
+        </li>
+        <li class="highlight-paragraph-detail">
+          When working with CSS, concepts like "inheritance", "specificity" and
+          the "box model" should be understood.
+        </li>
+      </ul>
+      <p class="paragraph">
+        Learn more about all available CSS properties and values on
+        <a
+          href="https://developer.mozilla.org/ko/docs/Web/CSS/Reference"
+          target="_blank"
+          class="text-link"
+          >the MDN CSS property reference</a
+        >.
+      </p>
+    </main>
+
+    <footer>
+      <a
+        id="download-button"
+        href="download-file/html-css-basics-summary.pdf"
+        target="_blank"
+        >Download PDF Summary</a
+      >
+      <p id="page-info">(c) Academind GmbH</p>
+    </footer>
+  </body>
+</html>
