@@ -1,6 +1,6 @@
 #hero {
   height: 800px;
-  background-image: url("/images/places/ocean.jpg");
+  background-image: url("https://jangg0627.github.io/Web-Development-study/03_sections7-travel-goals-page/images/places/ocean.jpg");
   background-position: center;
   background-size: cover;
 }
