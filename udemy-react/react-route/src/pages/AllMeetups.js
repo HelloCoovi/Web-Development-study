@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import MeetupList from "../components/meetups/MeetupList";
 
@@ -6,16 +6,18 @@ function AllMeetupsPages() {
   const [isLoading, setIsLoading] = useState(true);
   const [loadedMeetups, setLoadedMeetups] = useState([]);
 
-  fetch(
-    "https://react-getting-started-4b283-default-rtdb.asia-southeast1.firebasedatabase.app/meetups.json"
-  )
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      setIsLoading(false);
-      setLoadedMeetups(data);
-    });
+  useEffect(() => {
+    fetch(
+      "https://react-getting-started-4b283-default-rtdb.asia-southeast1.firebasedatabase.app/meetups.json"
+    )
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        setIsLoading(false);
+        setLoadedMeetups(data);
+      });
+  }, []);
 
   if (isLoading) {
     return (
