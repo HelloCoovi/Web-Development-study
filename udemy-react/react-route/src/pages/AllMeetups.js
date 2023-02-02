@@ -14,8 +14,19 @@ function AllMeetupsPages() {
         return response.json();
       })
       .then((data) => {
+        const meetups = [];
+
+        for (const key in data) {
+          const meetup = {
+            id: key,
+            ...data[key],
+          };
+          meetups.push(meetup);
+        }
+        console.log(meetups);
+
         setIsLoading(false);
-        setLoadedMeetups(data);
+        setLoadedMeetups(meetups);
       });
   }, []);
 
